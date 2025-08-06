@@ -61,6 +61,53 @@ pyinstaller frontEnd.py --onefile --windowed ^
 > Windows CMD syntax shown. On Linux/Mac use `:` instead of `;`.
 
 ---
+# 🚀 Auto-Launch on Windows Startup
+
+To automatically launch `backEnd.exe` on system startup (so Caps Lock / Num Lock animations work from boot):
+
+---
+
+## ✅ Method 1: Add a Shortcut to Startup Folder (Recommended)
+
+1. Press `Win + R`, type:
+   ```
+   shell:startup
+   ```
+   and hit **Enter** — this opens the Windows startup folder.
+
+2. Right-click inside the folder → `New > Shortcut`.
+
+3. In the location box, type the **full path** to `backEnd.exe`, for example:
+   ```
+   "D:\Key Indicator Project\Key Indicator App\backEnd.exe"
+   ```
+
+4. Click **Next**, name it:
+   ```
+   CapsNum Indicator
+   ```
+   and click **Finish**.
+
+> ✅ Now `backEnd.exe` will silently run in background on every Windows startup.
+
+---
+
+## 💡 Tip
+
+- Make sure all files (including icons and `frontEnd.exe`) stay in the **same folder**.
+- You can place this folder anywhere, but **don't delete or move it** after setting up the shortcut.
+
+---
+
+## ❌ Don't Use Task Scheduler (unless advanced)
+
+For most users, the startup folder method is:
+- Easier to manage
+- Launches quicker
+- Doesn't trigger UAC or admin prompts
+
+---
+
 
 ## 📄 License
 
