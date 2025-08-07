@@ -1,9 +1,16 @@
+[![Latest Release](https://img.shields.io/github/v/release/HarishStudio/capslocknumlockani?label=Download%20v2.0&style=for-the-badge)](https://github.com/HarishStudio/capslocknumlockani/releases/latest)
+
 # capslocknumlockani 🔒🔢
 
 **capslocknumlockani** is a lightweight, portable utility that visually notifies you when Caps Lock or Num Lock keys are toggled.  
 It combines the power of native C for fast key state detection with a modern Tkinter-based animation frontend.
 
 ---
+⚠️ Antivirus False Positive
+This app may trigger a few antivirus warnings because of how it detects Caps Lock/Num Lock state.
+We’ve tested it via VirusTotal, and 50+ engines marked it safe.
+Source code is fully open — feel free to inspect it.
+
 
 ## ✨ Features
 
